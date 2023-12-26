@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        .resume
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap:1 rem;
+
+        }
+        .html
+        {
+            color:beige;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size:20px;
+        }
+        .intro
+        {
+            text-align:left;
+            font-size: 30px;
+            padding: 10px;
+            background-color:azure;
+        }
+        .contact{
+            text-align:left;
+            font-size: 30px;
+            padding: 10px;
+            background-color:azure;
+        }
+        .objective{
+            text-align: left;
+            font-size: 30px;
+            padding: 10px;
+            background-color:azure;
+        }
+        .social
+        {
+            text-align:left;
+            font-size: 30px;
+            padding: 10px;
+            background-color:azure;
+        }
+        .skills{
+            text-align: left;
+            font-size: 30px;
+            padding: 10px;
+            background-color:azure;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            background-color:blanchedalmond;
+            padding: 100px;
+            gap: 100px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .grid-item {
+            background-color:gray;
+            padding: 100px;
+            font-size: 30px;
+            gap:100px;
+        }
+
+        .flex {
+            display: flex;
+            grid-template-columns: repeat(3,1fr);
+            background-color:cornsilk;
+            padding: 500px;
+            gap: 100px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .flex-item {
+            padding: 20px;
+            font-size: 50px;
+            text-align: center;
+        }
+        .h3
+        {
+            text-align: center;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>s
+    <div class="resume">
+     <div class="col">  
+    <div class="intro">
+        <h1>Lewis Hamilton</h1>
+        <h2>I'm a Web Developer</h2>
+        <img src="pro.jpeg" alt="profile">
+    </div>
+
+    <div class="contact">
+        <ul>
+            <li>lewishamilton@gmail.com</li>
+            <li>123 street city</li>
+            <li>+91 9345454545</li>
+            <li>Sri Ramakrishna Engineering College</li>
+        </ul>
+    </div>
+
+    <div class="objective">
+        <h2>Objective</h2>
+        <p>I am a Web Developer who is passionate about developing web applications and websites. I have a passion for learning new technologies and learning new ways of working. I am also passionate about learning new languages and technologies. I am also passionate about learning new ways of working.</p>
+    </div>
+
+    <div class="social">
+        <h2>Social</h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/lewishamilton/">LinkedIn</a></li>
+            <li><a href="https://github.com/LewisHamilton">Github</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Bootstrap</li>
+            <li>Wordpress</li>
+        </ul>
+    </div>
+     </div>
+     <div class="column">
+    <div class="flex">
+        <div class="flex-item">I am Lewis Hamilton </div>
+            <div class="flex-item">front-end Developer</div>
+        <div class="flex-item"><img src="pro.jpeg" alt="profile"></div> 
+    </div>
+
+    <div class="grid-container">
+        <h1>My Services</h1>
+        <br><br><br><br>
+        <div class="grid-item">Web development</div>
+        <div class="grid-item">App development</div>
+        <div class="grid-item">UI/UX design</div>
+        <div class="grid-item">Photography</div>
+    </div>
+</div>
+</body>
+</html>
